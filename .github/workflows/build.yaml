@@ -26,5 +26,5 @@ jobs:
           context: ./
           push: true
           tags: |
-                dimeshmethsara/docker-automation:${{ env.SHORT_SHA }}
-                dimeshmethsara/docker-automation:latest
+                methsara/docker-automation:${{ env.SHORT_SHA }}
+                methsara/docker-automation:latest
